@@ -1,0 +1,63 @@
+{
+  "tabnine.experimentalAutoImports": true,
+  "workbench.colorTheme": "Dracula",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.activityBar.visible": false,
+  "workbench.statusBar.visible": false,
+
+  "editor.fontSize": 15,
+  "editor.fontFamily": "Hack Nerd Font Mono",
+  "editor.lineHeight": 26,
+  "editor.suggestSelection": "first",
+  "explorer.confirmDelete": false,
+  "workbench.editor.labelFormat": "short",
+  "editor.fontLigatures": true,
+  "editor.parameterHints.enabled": false,
+  "editor.renderLineHighlight": "gutter",
+
+  "editor.accessibilitySupport": "off",
+  "explorer.confirmDragAndDrop": false,
+  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.fontFamily": "Hack Nerd Font Mono",
+  "editor.semanticHighlighting.enabled": false,
+  "editor.minimap.enabled": false,
+  "update.mode": "start",
+  "terminal.integrated.gpuAcceleration": "off",
+  "terminal.integrated.defaultProfile.osx": "fish",
+  "[jsonc]": {
+      "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "workbench.editor.untitled.hint": "hidden",
+  "window.zoomLevel": 1,
+  "files.autoSave": "afterDelay",
+  "editor.tabSize": 2,
+  "editor.cursorStyle": "line",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "terminal.integrated.profiles.windows": {
+      "PowerShell": {
+          "source": "PowerShell",
+          "icon": "terminal-powershell"
+      },
+      "Command Prompt": {
+          "path": [
+              "${env:windir}\\Sysnative\\cmd.exe",
+              "${env:windir}\\System32\\cmd.exe"
+          ],
+          "args": [],
+          "icon": "terminal-cmd"
+      },
+      "Git Bash": {
+          "source": "Git Bash"
+      },
+      "Ubuntu (WSL)": {
+          "path": "C:\\WINDOWS\\System32\\wsl.exe",
+          "args": [
+              "-d",
+              "Ubuntu"
+          ]
+      }
+  },
+  "terminal.integrated.defaultProfile.windows": "Ubuntu (WSL)",
+  "workbench.startupEditor": "none",
+  "editor.renderWhitespace": "none",
+}
